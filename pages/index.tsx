@@ -1,12 +1,15 @@
 import React from "react";
 
-import { Container, Header, Main, Footer, Cards } from "@components";
+import { Main, Footer, Cards, Explore, CallToAction, Triple } from "@components";
+import Container from "src/components/layout/container";
 
 const Home: React.FC = () => {
     return (
         <Container>
-            <Header />
             <Main />
+            <Triple />
+            <Explore />
+            <CallToAction />
             <Cards />
             <Footer />
         </Container>

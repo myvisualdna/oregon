@@ -1,7 +1,10 @@
 export { Header } from "./header";
 export { Logo } from "./logo";
-export { Main } from "./main";
+export { Main } from "./main-page/main";
 export { Button } from "./button";
-export { Cards } from "./cards";
-export { Footer } from "./footer";
+export { Cards } from "./main-page/cards";
+export { Footer } from "./main-page/footer";
 export { Container } from "./container";
+export { Explore } from "./main-page/explore";
+export { CallToAction } from "./main-page/call-to-action";
+export { Triple } from "./main-page/triple";
